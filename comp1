@@ -1,0 +1,52 @@
+c <section id="gallery" class="relative pt-16">
+    <div class="carousel-container group">
+        <div id="hero-track" class="carousel-track">
+            <!-- Main gallery images -->
+            <img src="assets/img/people/1.jpg" alt="Bartending Scene 1" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/2.jpg" alt="Bartending Scene 2" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/3.jpg" alt="Bartending Scene 3" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/4.jpg" alt="Bartending Scene 4" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/5.jpg" alt="Bartending Scene 5" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/6.jpg" alt="Bartending Scene 6" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/7.jpeg" alt="Bartending Scene 7" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/8.jpeg" alt="Bartending Scene 8" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/9.jpeg" alt="Bartending Scene 9" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1920'">
+            <img src="assets/img/people/10.jpeg" alt="Bartending Scene 10" class="carousel-slide"
+                onerror="this.src='https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1920'">
+
+        </div>
+
+        <!-- Intro text over images in landscape -->
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent flex items-end pb-20 px-6">
+            <div class="container mx-auto">
+                <h1 class="text-5xl md:text-7xl font-black mb-4 leading-tight">Elevate Your <br><span
+                        class="text-amber-500">Private Event</span></h1>
+                <p class="text-lg md:text-xl text-slate-300 max-w-xl mb-8">Premium craft cocktails and professional
+                    service delivered directly to your venue. No bar too small, no party too big.</p>
+                <div class="flex space-x-4">
+                    <button onclick="moveCarousel('hero-track', -1)"
+                        class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button onclick="moveCarousel('hero-track', 1)"
+                        class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent flex items-end pb-20 px-6">
